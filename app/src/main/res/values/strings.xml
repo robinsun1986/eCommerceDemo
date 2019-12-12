@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">eCommerceDemo</string>
+
+    <string name="product_list_title">Product List</string>
+    <string name="product_details_title">Product Details</string>
+    <string name="press_back_again_to_exit">Press back again to exit</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="checkout">Checkout</string>
+    <string name="sizes">Size:</string>
+    <string name="quantity">Quantity:</string>
+    <string name="done">Done</string>
+</resources>

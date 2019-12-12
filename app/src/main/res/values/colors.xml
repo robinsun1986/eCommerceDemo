@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f7629e</color>
+    <color name="colorPrimaryDark">#f5317f</color>
+    <!--<color name="colorAccent">#FF4081</color>-->
+
+    <color name="textDarkBlack">#2a2a2a</color>
+    <color name="semiTransparentOverlay">#be000000</color>
+    <color name="sellerOverlay">#add8f7</color>
+    <color name="productItemBorder">#d9d9d9</color>
+    <color name="addToCartButtonBg">#FFCC80</color>
+    <color name="productDetailsText">#9E9E9E</color>
+    <color name="minusButton">#007b43</color>
+</resources>

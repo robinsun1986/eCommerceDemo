@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="robinsun.com.ecommercedemo.fragment.ProductListFragment">
+
+    <include layout="@layout/header_bar" />
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipeRefresh"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+
+        <in.srain.cube.views.GridViewWithHeaderAndFooter
+            android:id="@+id/gvProducts"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:horizontalSpacing="@dimen/product_grid_spacing"
+            android:numColumns="2"
+            android:paddingLeft="@dimen/product_grid_spacing"
+            android:paddingRight="@dimen/product_grid_spacing"
+            android:scrollbars="none"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="@dimen/product_grid_spacing" />
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+</LinearLayout>
